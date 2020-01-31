@@ -1,0 +1,22 @@
+.hide{
+    display: none;
+}
+th{
+    cursor: pointer;
+}
+th::after{
+    font-family: 'Font Awesome 5 Free';
+    content:'\f0dd';
+    position: relative;
+    top: -2px;
+    left: 6px;
+}
+.up::after{
+    font-family: 'Font Awesome 5 Free';
+    content:'\f0de';
+    position: relative;
+    top: -2px;
+    left: 6px;
+}
+/* f0dd down */
+/* f0de up */
